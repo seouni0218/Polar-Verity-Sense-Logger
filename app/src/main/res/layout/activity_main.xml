@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/buttons_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/broadcast_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/listen_broadcast" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="2dp"
+            android:background="@android:color/white" />
+
+        <Button
+            android:id="@+id/lasensorbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lasensorbtn" />
+
+        <Button
+            android:id="@+id/lahr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lahrbtn" />
+
+        <Button
+            android:id="@+id/lappg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lappgbtn" />
+
+        <Button
+            android:id="@+id/laacc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/laaccbtn" />
+
+        <Button
+            android:id="@+id/lagyro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lagyrobtn" />
+
+        <Button
+            android:id="@+id/llsensorbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/llsensorbtn" />
+
+        <Button
+            android:id="@+id/llacc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/llaccbtn" />
+
+        <Button
+            android:id="@+id/llgyro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/llgyrobtn" />
+
+        <Button
+            android:id="@+id/rasensorbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rasensorbtn" />
+
+        <Button
+            android:id="@+id/raacc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/raaccbtn" />
+
+        <Button
+            android:id="@+id/ragyro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ragyrobtn" />
+
+        <Button
+            android:id="@+id/rlsensorbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rlsensorbtn" />
+
+        <Button
+            android:id="@+id/rlacc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rlaccbtn" />
+
+        <Button
+            android:id="@+id/rlgyro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rlgyrobtn" />
+
+        <!--ListView 추가-->
+        <ListView
+            android:id="@+id/devices_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"/>
+
+
+    </LinearLayout>
+
+</ScrollView>
